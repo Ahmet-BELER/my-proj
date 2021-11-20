@@ -1,0 +1,42 @@
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: thistle;
+    padding: 50px 20px;
+}
+
+.product__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+    /* background-color: teal; */
+}
+
+.book.card {
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card__img {
+    background-color: rgb(110, 0, 0);
+    /* background-image: url(./images/a-Dolls-house.jpg); */
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+} 
